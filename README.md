@@ -1,10 +1,11 @@
-# DigitArq – Documentação Técnica e Conceitual
+# DigitArq – Documentação Conceitual e Técnica
 
 ## 1. Visão Geral
 
-DigitArq é um **programa modular de funções arquivísticas** em Python que abstrai tarefas recorrentes de gestão e preservação de documentos digitais — cópia, conversão, renomeação, relatório fixity, etc.  A arquitetura “plug‑and‑play” permite acrescentar ou remover módulos (plugins) sem alterar o núcleo, favorecendo experimentação em diferentes fluxos de trabalho e desenvolvimento colaborativo.
+DigitArq é um **programa modular de funções arquivísticas** em Python que abstrai tarefas recorrentes de gestão e preservação de documentos digitais — cópia, conversão, renomeação, relatório fixity, etc.  A arquitetura “plug-and-play” permite acrescentar ou remover módulos (plugins) sem alterar o núcleo, favorecendo experimentação em diferentes fluxos de trabalho e desenvolvimento colaborativo. Foi pensado para pequenas instituições arquivísticas que possuem poucos funcionários para operar os fluxos de trabalho ou para grandes arquivos com setores independentes. Sua modularidade foi concebida justamente para se encaixar nas operações padrão — seja para suprir as necessidades de um determinado arquivista, seja para integrar a um sistema maior.
+Como se trata de um programa em fase inicial de desenvolvimento, estamos dando prioridade aos módulos de tratamento de documentações físicas digitalizadas.
 
-- **Interface** Tkinter + ttk (paleta cinza neutra)
+- **Interface** Tkinter + ttk
 - **Descoberta de plugins** `src/plugins/*/meta.json` ou entry‑points `pip`
 - **Registro de eventos** [P R E M I S 3.0](https://www.loc.gov/standards/premis/) em JSON‑Lines
 - **Log de erros** `logs/erro.log` (stack‑trace completo)
