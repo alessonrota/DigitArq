@@ -1,0 +1,6 @@
+{
+  "name": "Renomeação NOBRADI",
+  "module": "plugins.renomeacao",
+  "entry": "run",
+  "description": "Renomeia arquivos segundo o padrão BR_APESP_MI_LP_0001"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Cópia/Mover Arquivos",
+  "module": "plugins.copiar_mover",
+  "entry": "run",
+  "description": "Transfere arquivos respeitando fixity"
+}

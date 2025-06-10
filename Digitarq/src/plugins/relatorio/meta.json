@@ -1,0 +1,6 @@
+{
+  "name": "Relatório de Arquivos",
+  "module": "plugins.relatorio",
+  "entry": "run",
+  "description": "Extrai metadados, detecta duplicados/corrompidos e exporta CSV"
+}

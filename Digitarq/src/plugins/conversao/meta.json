@@ -1,0 +1,6 @@
+{
+  "name": "Conversão de Arquivos",
+  "module": "plugins.conversao",
+  "entry": "run",
+  "description": "Imagens → PDF, merge e compactação"
+}
