@@ -1,4 +1,5 @@
 # DigitArq – Documentação Conceitual e Técnica
+![Captura de tela do DigitArq](https://raw.githubusercontent.com/alessonrota/DigitArq/main/Captura%20de%20tela%202025-06-10%20203047.png)
 
 ## 1. Visão Geral
 
