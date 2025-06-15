@@ -117,3 +117,32 @@ Cada plugin importa `context.FORM_CONTEXT` e grava seu próprio evento PREMIS.
 ## 7. Considerações finais
 
 DigitArq alia **modularidade dinâmica** e PREMIS, atendendo ISO 14721/15489, Conarq e sistemas SIGAD, GEDI, AtoM. O framework serve como ponte entre digitalização, gestão e preservação, mantendo rastreabilidade e integridade de longo prazo.
+
+## Instalação
+import pathlib
+
+Define markdown content with libraries to install
+md_content = """# Mini Tutorial: Clonar e Rodar o DigitArq
+
+Siga estes passos no **Windows PowerShell** para clonar o repositório do GitHub e executar o DigitArq localmente.
+
+```powershell
+# 1. Clone o repositório
+git clone git@github.com:seu-usuario/DigitArq.git
+
+# 2. Entre na pasta do projeto
+cd DigitArq\\Digitarq\\
+
+# 3. Crie e ative um ambiente virtual
+python -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+
+# 4. Instale as dependências necessárias
+pip install pillow pikepdf rich tqdm
+
+# 5. Ajuste o PYTHONPATH para apontar ao código-fonte
+$env:PYTHONPATH = "$PWD\\src"
+
+# 6. Execute o DigitArq
+python -m digitarq.digitarq_main
+
